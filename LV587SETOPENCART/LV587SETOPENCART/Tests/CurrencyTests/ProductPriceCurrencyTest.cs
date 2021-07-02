@@ -56,7 +56,7 @@ namespace LV587SETOPENCART.Tests
             //Here we create objects of page classes 
             string currencySymbol;
             //credentials for login
-            string email = "iva@new.com";
+            string email = "vova@ukr.net";
             string password = "qwerty";
             HeaderComponent header = new HeaderComponent(driver);
             PageWithProducts productPage = new PageWithProducts(driver);
