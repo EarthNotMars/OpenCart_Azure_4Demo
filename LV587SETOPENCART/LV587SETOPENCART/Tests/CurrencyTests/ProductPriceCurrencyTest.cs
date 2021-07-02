@@ -40,7 +40,7 @@ namespace LV587SETOPENCART.Tests
         public void SetUp()
         {
             // ClassWithDriver contains web driver
-            string path = @"http://104.45.82.180/opencart/";
+            string path = @"http://52.232.34.99/";
             ClassWithDriver classWithDriver = new ClassWithDriver(driver);
             classWithDriver.NavigateTo(path);
         }
