@@ -39,7 +39,7 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            string path = @"http://52.232.34.99/";
+            string path = @"http://52.232.34.99";
             ClassWithDriver classWithDriver = new ClassWithDriver(driver);
             classWithDriver.NavigateTo(path);
         }
