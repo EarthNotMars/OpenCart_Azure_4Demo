@@ -26,7 +26,7 @@ namespace LV587SETOPENCART.Tests
         public void BeforeAllMethods()
         {
             driver = new ChromeDriver();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
             driver.Manage().Window.Maximize();
         }
 
@@ -39,7 +39,7 @@ namespace LV587SETOPENCART.Tests
         [SetUp]
         public void SetUp()
         {
-            string path = @"http://52.232.34.99";
+            string path = @"http://52.232.34.99/";
             ClassWithDriver classWithDriver = new ClassWithDriver(driver);
             classWithDriver.NavigateTo(path);
         }
